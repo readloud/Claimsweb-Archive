@@ -1,0 +1,140 @@
+.one {
+  margin-left: 10%;
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.two {
+  grid-column: 5 / 6;
+  grid-row: 1;
+}
+.three {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+.four {
+  grid-column: 4/5 !important;
+  grid-row: 1;
+}
+.five {
+  grid-column: 3/4;
+  grid-row: 1;
+}
+
+
+#firstSearchDiv {
+	margin-left: 20%;
+	margin-top: 100px;
+	width: 200px;
+	height: 100%;
+}
+
+#policySearchDiv {
+	margin-top: 100px;
+}
+
+
+
+#policyNumberLabel {
+	padding-bottom: 10px;
+}
+
+#claimNumberLabel {
+	text-align: left !important;
+	float: left;
+	padding-bottom: 10px;
+}
+
+#radioGroup > div {
+	margin-top: 40px !important;
+}
+
+#radioGroup {
+	position: relative;
+	bottom: 20px;
+}
+
+#policyTypeLabel {
+	position: relative;
+	right: 10px;
+}
+
+#StartDatePickerDiv {
+	margin-top:30px;
+	position: relative;
+	right: 20px;
+}
+
+#StartDateLabelDiv {
+	margin-top: 105px;
+}
+
+#StartDateLabel {
+	position: relative;
+	right: 40px;
+}
+
+#EndDatePickerDiv {
+	margin-top: 155px;
+	position: relative;
+	right: 100px;
+}
+
+#dateDash {
+	margin-left: 105px;
+	position: relative;
+	left: 85px;
+	bottom: 65px;
+	font-size: 33px;
+}
+
+#LastNameDiv {
+	position:relative;
+}
+
+#mainContactLabel {
+	position: relative;
+	right: 90px;
+}
+
+#LossCauseDiv {
+	margin-right: 80px;
+}
+
+.dropdown3 {
+	margin-top: 80px;
+}
+
+#lossCauseLabel {
+	top: 60px;
+	right: 20px;
+}
+
+#NameHolderDiv {
+	margin-left: 69px;
+	position: relative;
+	bottom: 30px;
+}
+
+#claimNumberInput {
+	margin-top: 13px;
+}
+
+ #SearchButton {
+    position: relative;
+    left: 0px;
+    background-color: #11AAEE;
+    height: 39px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    width: 150px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+#image {
+	height: 80px;
+	width: 80px;
+}

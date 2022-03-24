@@ -1,0 +1,143 @@
+* {
+    font-family: 'Roboto';
+}
+
+body {
+    background: #E5E5E5;
+}
+
+#background {
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -100;
+    background-color: #E5E5E5;
+}
+
+.card {
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 32px;
+  float: left;
+}
+
+.tagline {
+    margin-top: 30%;
+    margin-right: 50px;
+    float: right;
+    width:300px
+}
+
+.App-header {
+  background-color: #084477;
+  height: 32px;
+  padding: 20px;
+  color: white;
+}
+
+#backdrop{
+    background-color: black;
+}
+
+#frontPanel {
+    position: relative;
+    top: 140px;
+    right: 70px;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 200px;
+    background-color: white;
+}
+
+#loginBox {
+    position: relative;
+    z-index: 1000;
+    padding-top:32px;
+}
+
+#loginButton {
+    position: relative;
+    top: 25px;
+    left: 26px;
+    background-color: #11AAEE;
+    height: 39px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    width: 100px;
+}
+
+.loginForm {
+    padding-top: 10px;
+}
+
+ul{list-style-type:none;}
+
+.loginLinks {
+    position: relative;
+    list-style-stype: none;
+    margin-left: 20px;
+    bottom: 8px;
+    overflow: hidden;
+}
+
+.link {
+    float: right;
+}
+
+.link a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.divider {
+        position: relative;
+        left: 50px;
+        top: 550px;
+        width: 92%;
+        height: 1px;
+        background-color: black;
+}
+
+
+
+
+.pageLinks {
+    margin-bottom: 0px;
+    float: left;
+    position: relative;
+    list-style-stype: none;
+    padding-left: 0px;
+    left:190px;
+    bottom: 60px;
+    overflow: hidden;
+    text-decoration: none;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.05);
+    font-family: 'Roboto';
+    bottom:43px;
+}
+
+#navLink {
+    font-size: 18px;
+    font-weight: bold;
+    bottom: 61px;
+}
+
+.pageLinks:hover{
+    cursor: pointer;
+}

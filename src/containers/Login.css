@@ -1,0 +1,116 @@
+#loginButton {
+    position: relative;
+    top: 25px;
+    left: 26px;
+    background-color: #11AAEE;
+    height: 39px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    width: 100px;
+}
+
+.loginForm {
+    padding-top: 10px;
+}
+
+
+#divider {
+    position: relative;
+    left: 50px;
+    top: 300px;
+    width: 92%;
+    height: 1px;
+    background-color: black;
+}
+
+ul{list-style-type:none;}
+
+.loginLinks {
+    list-style-stype: none;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.link {
+    float: right;
+}
+
+.link a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#claimPortalTitle {
+    float:left;
+    color: #777777;
+    margin-left:80px;
+    margin-top: 35px;
+}
+
+#loginDecor {
+    margin-top:100px;
+}
+
+#symbolIcon {
+    position: relative;
+    left: 6px;
+}
+
+.errorField {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+#emailMissing, #passwordMissing {
+    margin-left:80px;
+    display: none;
+    color: red;
+}
+
+#loginFailed {
+    display: none;
+    color: red;
+}
+
+#passwordMissing {
+    margin-left: 105px;
+}
+
+.panelOneMissing {
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+    top: 140px;
+    right: 70px;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 250px !important;
+    background-color: white;
+}
+
+.panelTwoMissing {
+    position: relative;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    position: relative;
+    top: 140px;
+    right: 70px;
+    margin-left: 600px;
+    margin-right: 600px;
+    height: 290px !important;
+    background-color: white;
+}
+
+#rememberMeDiv > input, #rememberMeDiv > p {
+    display: inline-block;
+}

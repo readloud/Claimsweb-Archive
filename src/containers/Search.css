@@ -1,0 +1,112 @@
+.dropdown1 {
+	margin: 2em;
+	padding-top: 5em;
+	width: 250px;
+	left: 50px;
+}
+
+.dropdown2 {
+	width: 280px;
+	margin: 5em;
+}
+
+.dropdown3 {
+	width: 250px;
+}
+
+#insuredLabel {
+	position: relative;
+	float: left;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+#PropertyLabel {
+	padding: 10px;
+	margin:0;
+	margin-left: 4.3em;
+	float: left;
+    margin-bottom:10px;
+}
+
+.react-date-picker__clear-button{
+	display: none;
+}
+
+.react-datepicker__input-container input{
+	width: 150px;
+    text-align: center;
+    height: 30px;
+    font-size: 17px;
+}
+
+#policyLabel {
+	position: relative;
+	top: 60px;
+}
+
+#radioGroup {
+	width: 180px;
+}
+
+
+#lossCauseLabel {
+	position: relative;
+}
+
+ .checkbox {
+ 	margin: 4em;
+ }
+
+
+
+#mainContactLabel {
+
+}
+
+#claimNumberInput {
+	width: 200px;
+	height: 30px;
+	font-size: 18px;
+}
+
+
+#policyNumberInput {
+	width: 200px;
+	height: 30px;
+	font-size: 18px;
+}
+
+#policyNumberLabel {
+	float: left;
+}
+
+#firstColInput, #policyNumberInput {
+	margin: 0, auto;
+	padding: 0px;
+}
+
+#secondColInput {
+	padding-left:75px;
+	margin-top:200px;
+}
+
+#thirdColInput {
+	margin-top: 343px;
+}
+
+#firstNameInput {
+	height: 30px;
+	font-size: 18px;
+}
+
+#lastNameInput {
+	height: 30px;
+	font-size: 18px;
+}
+
+.tagline {
+	position: relative;
+	top: 20px;
+	right: 40px;
+}

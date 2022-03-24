@@ -1,0 +1,32 @@
+<div id="frontPanel" className="card">
+    <div id="loginBox">
+        <form onSubmit={this.handleLogin}>
+            <FormGroup controlId="username" bsSize="large" className="loginForm">
+                <ControlLabel>Username:&nbsp;&nbsp;</ControlLabel>
+                <FormControl
+                        autoFocus
+                        type="username"
+                        defaultValue={this.state.username}
+                        onChange={this.onChange}
+                />
+            </FormGroup>
+            <FormGroup controlId="password" bsSize="large" className="loginForm">
+                <ControlLabel>Password:&nbsp;&nbsp;&nbsp;</ControlLabel>
+                <FormControl
+                        autoFocus
+                        type="password"
+                />
+            </FormGroup>
+            <Button
+                    id="loginButton"
+                    block
+                    bsSize="large"
+                    type="submit"
+            >LOGIN</Button>
+        </form>
+    </div>
+    <div id="loginDecor">
+      <h1 id="claimPortalTitle">Claim Portal</h1>
+      <img src={tagline} className="tagline" />
+    </div>
+</div>

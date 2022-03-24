@@ -1,0 +1,169 @@
+#homeFrontPanel {
+	margin-left: 4.1%;
+	width: 92%;
+	margin-top: 50px;
+}
+
+.returnLink {
+	margin-top: 80px;
+	color: blue;
+    background-color: #11AAEE;
+    height: 32px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border-style: none;
+    width: 150px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://mywildalberta.ca/images/GFX-MWA-Parks-Reservations.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+#docImage{
+    float: left;
+    margin-top:10px;
+    width: 70px;
+    height: 70px;
+}
+
+#docDesc {
+    position: relative;
+    right: 70px;
+    margin-top: 90px;
+    float: left;
+    color: #1188EE;
+}
+
+#PhotosLabel {
+    margin-right:50px;
+}
+
+#imageButton {
+    float: left;
+}
+
+#photos {
+    position:relative;
+    left: 1%;
+}
+
+a {
+    color: blue;
+}
+
+#photoListDiv {
+    margin-bottom: 160px;
+}
+
+#RiskUnitContact {
+    margin-right: 100px;
+}
+
+#fileSymbol {
+    width: 15px;
+    height: 20px;
+}
+
+#gallery {
+    position: relative;
+    margin-top: 20px;
+    right: 100px;
+}
+
+
+#lossLocDiv {
+    position: relative;
+    right: 70px;
+    margin-top: 30px;
+}
+
+#tabs {
+    position: relative;
+    bottom: 52px;
+}
+
+#tabs ul {
+    float: left;
+}
+
+#tabs li {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #E5E5E5;
+    height: 24px;
+}
+
+.selected {
+    background-color: #084477 !important;
+}
+
+#tabs li a {
+    position: relative;
+    top:2px;
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+#tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#detailTable {
+    width: 100%;
+    border: none !important;
+}
+
+#detailTable td {
+    border-bottom: white !important;
+}
+
+#tCol1 {
+    width: 40%;
+}
+ #tCol2 {
+     width: 35%;
+ }
+
+ #locationDetailLabel {
+     position:relative;
+     bottom: 66px;
+ }
+
+ #locationLines {
+     position: relative;
+     bottom: 50px;
+ }
+
+ #ContactForLoss, #mainContactName {
+     position: relative;
+     bottom: 57px;
+ }
+
+ #detailsTableInc {
+     position: relative;
+     bottom: 70px;
+     overflow: scroll;
+ }
+
+ #incTable {
+     height: 80%;
+     width: 100%;
+     overflow-y: scroll;
+ }
+
+ #incIcon {
+     width: 92px;
+ }
+
+
